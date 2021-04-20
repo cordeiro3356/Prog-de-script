@@ -7,7 +7,7 @@ while [[ $var <1 ]]; do
     echo "o arquivo chave.txt existe"
     break
     else
-    echo "o arquivo chave.txt não existe"
+    date
     fi
     sleep 2
 done
