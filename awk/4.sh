@@ -5,8 +5,7 @@
  grep Vianna downloads.txt > v.txt
  grep Arr445 downloads.txt > a.txt
  grep root downloads.txt > r.txt
- ##solução provisoria##
- ##inviavel em uma lista com alta quantidade de usuarios##
+
  echo "Nelson"
  wc -l n.txt | awk '{ print $1 }'
  echo "Vianna"
